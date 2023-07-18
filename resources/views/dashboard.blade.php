@@ -80,16 +80,19 @@
                       <i class="bi bi-motherboard"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>30</h6>
+                      <h6>7</h6>
                       <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
 
                     </div>
                   </div>
                 </div>
-
+               
               </div>
-            </div><!-- End Revenue Card -->
-
+            </div
+            ><!-- End Revenue Card -->
+            <div class="row">
+                
+            </div>
             <!-- Customers Card -->
             <!-- <div class="col-xxl-4 col-xl-12">
 
@@ -126,7 +129,7 @@
               </div>
 
             </div -->
-            ><!-- End Customers Card -->
+            <!-- End Customers Card -->
 
             <!-- Reports -->
             <div class="col-12">
