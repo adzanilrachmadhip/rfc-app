@@ -5,13 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  
   <meta content="" name="description">
   <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/rfc.webp" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -28,7 +23,10 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <!-- leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="crossorigin=""/>
+  <!-- Leaflet JS  -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="crossorigin=""></script>
   <!-- =======================================================
   * Template Name: NiceAdmin
   * Updated: May 30 2023 with Bootstrap v5.3.0
@@ -214,12 +212,12 @@
         <div class="copyright text-success">
           &copy; Copyright 2023<strong><span>RFC Team ITTelkom Surabaya</span></strong>. All Rights Reserved
         </div>
-        <div class="credits">
+        <div class="credits" style="color: black;">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-          Designed by <a class="text-success" href="https://bootstrapmade.com/">BootstrapMade</a>
+           Designed by <a class="text-success" href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </footer><!-- End Footer -->
 
@@ -237,7 +235,8 @@
 
       <!-- Template Main JS File -->
       <script src="assets/js/main.js"></script>
-
+      <!-- leaflet JS -->
+      <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="crossorigin=""></script>      
   </body>
 
 </html>

@@ -24,7 +24,7 @@
   </li>
 
   <li class="nav-item">
-    <a class="nav-link text-success" href="/chart">
+    <a class="nav-link text-success" href="/peta">
       <i class="bi bi-map text-success"></i>
       <span>Denah Sensor</span>
     </a>
