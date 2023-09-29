@@ -17,9 +17,16 @@
   </li>
 
   <li class="nav-item">
-    <a class="nav-link text-success" href="index.html">
+    <a class="nav-link text-success" href="/chart">
       <i class="bi bi-bar-chart text-success"></i>
       <span>Charts</span>
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link text-success" href="/chart">
+      <i class="bi bi-map text-success"></i>
+      <span>Denah Sensor</span>
     </a>
   </li>
 

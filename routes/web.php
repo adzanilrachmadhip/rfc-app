@@ -32,3 +32,23 @@ Route::get('/table', function(){
         "nama_lengkap" => "Dr. Helmy Widyantara"
     ]);
 });
+
+Route::get('/chart', function(){
+    return view('chart',[
+        "title" => "Chart",
+        "username" => "HWD",
+        "roles" => "Admin",
+        "image" => "pakdekan.png",
+        "nama_lengkap" => "Dr. Helmy Widyantara"
+    ]);
+});
+
+Route::get('/peta', function(){
+    return view('peta',[
+        "title" => "Denah",
+        "username" => "HWD",
+        "roles" => "Admin",
+        "image" => "pakdekan.png",
+        "nama_lengkap" => "Dr. Helmy Widyantara"
+    ]);
+});
