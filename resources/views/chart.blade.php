@@ -19,7 +19,7 @@
       <div class="col-lg-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Column Chart</h5>
+                <h5 class="card-title">Tekstur Tanah</h5>
 
                 <!-- Column Chart -->
                 <div id="columnChart"></div>
@@ -28,14 +28,14 @@
                   document.addEventListener("DOMContentLoaded", () => {
                     new ApexCharts(document.querySelector("#columnChart"), {
                       series: [{
-                        name: 'Net Profit',
-                        data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
+                        name: 'Nitrogen',
+                        data: [41, 11, 16, 9, 14, 40,13]
                       }, {
-                        name: 'Revenue',
-                        data: [76, 85, 101, 98, 87, 105, 91, 114, 94]
+                        name: 'Potassium',
+                        data: [117, 30, 46, 25, 42, 113, 37]
                       }, {
-                        name: 'Free Cash Flow',
-                        data: [35, 41, 36, 26, 45, 48, 52, 53, 41]
+                        name: 'Tempratur Tanah',
+                        data: [34, 34, 35, 37, 35, 34, 32]
                       }],
                       chart: {
                         type: 'bar',
@@ -57,7 +57,7 @@
                         colors: ['transparent']
                       },
                       xaxis: {
-                        categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+                        categories: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'],
                       },
                       yaxis: {
                         title: {
@@ -70,7 +70,7 @@
                       tooltip: {
                         y: {
                           formatter: function(val) {
-                            return "$ " + val + " thousands"
+                            return " " + val + " satuan"
                           }
                         }
                       }
@@ -86,7 +86,7 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Bar Chart</h5>
+              <h5 class="card-title">Humidity</h5>
 
               <!-- Bar Chart -->
               <div id="barChart"></div>
@@ -111,9 +111,7 @@
                       enabled: false
                     },
                     xaxis: {
-                      categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
-                        'United States', 'China', 'Germany'
-                      ],
+                      categories: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'],
                     }
                   }).render();
                 });
@@ -130,7 +128,7 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Pie Chart</h5>
+                    <h5 class="card-title">Level Baterai</h5>
 
                     <!-- Pie Chart -->
                     <div id="pieChart"></div>
@@ -138,7 +136,7 @@
                     <script>
                         document.addEventListener("DOMContentLoaded", () => {
                         new ApexCharts(document.querySelector("#pieChart"), {
-                            series: [44, 55, 13, 43, 22],
+                            series: [44, 55, 13, 43, 22, 31, 32],
                             chart: {
                             height: 350,
                             type: 'pie',
@@ -146,7 +144,7 @@
                                 show: true
                             }
                             },
-                            labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E']
+                            labels: ['pH1', 'Soil_Moisture1A', 'Soil_Temperature1A', 'Soil_Conductivity1A', 'Nitrogen1A', 'Phosphorus1A', 'Potassium1A']
                         }).render();
                         });
                     </script>
@@ -157,7 +155,7 @@
         <div class="col-lg-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Donut Chart</h5>
+              <h5 class="card-title">Hasil Panen</h5>
 
               <!-- Donut Chart -->
               <div id="donutChart"></div>
@@ -165,7 +163,7 @@
               <script>
                 document.addEventListener("DOMContentLoaded", () => {
                   new ApexCharts(document.querySelector("#donutChart"), {
-                    series: [44, 55, 13, 43, 22],
+                    series: [44, 55, 13, 43],
                     chart: {
                       height: 350,
                       type: 'donut',
@@ -173,7 +171,7 @@
                         show: true
                       }
                     },
-                    labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+                    labels: ['Quartal 1', 'Quartal 2', 'Quartal 3', 'Quartal 4'],
                   }).render();
                 });
               </script>
